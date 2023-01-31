@@ -41,3 +41,25 @@ ___
 - https://github.com/trufflesuite/ganache : ganache repo
 - https://goerlifaucet.com/ : goerli faucet
 
+___
+
+How to download Geth:
+
+__For mac__
+```
+$ brew tap ethereum/ethereum
+$ brew install ethereum
+```
+
+__For Ubuntu__
+```
+$ sudo apt-get install software-properties-common
+$ sudo add-apt-repository y- ppa:ethereum/ethereum
+$ sudo apt-get update
+$ sudo apt-get install ethereum
+```
+
+Verify that the installation was succesful with
+```
+$ geth version
+```
